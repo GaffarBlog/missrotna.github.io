@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habiba</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrap">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div id="box">
+                        <h2>Kya Smile Hai Apki</h2>
+                        <img width="100%" src="img/angel1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Like a angel without Wings</h2>
+                        <img width="100%" src="img/angel2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Cute ar dibba</h2>
+                        <img width="100%" src="img/angel3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>চশমা ওয়ালী </h2>
+                        <img width="100%" src="img/angel4.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Ki vabteso</h2>
+                        <img width="100%" src="img/angel5.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>বোরকা ওয়ালী </h2>
+                        <img width="100%" src="img/angel6.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Smiley Look</h2>
+                        <img width="100%" src="img/angel7.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Mayaboti</h2>
+                        <img width="100%" src="img/angel8.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Beuty Queen</h2>
+                        <img width="100%" src="img/angel9.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div id="box">
+                        <h2>Crush</h2>
+                        <img width="100%" src="img/angel10.jpeg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div id="wellcome" >
+                <div class="center">
+                    <h1>Wellcome Ovimani Meye Habiba</h1>
+                    <p>Touch Here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        var wellcome = document.getElementById("wellcome");
+       
+
+
+        wellcome.addEventListener("click", function(){
+            wellcome.classList.add("active");
+        });
+        
+
+        
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            items: 1
+        });
+        });
+    </script>
+</body>
+</html>
